@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: rgb(198, 246, 251); */
+    background-image: url("peakpx.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    position: relative;
+    background-image: url("images/19154567.jpg");
+    display: flex;
+    background-repeat: no-repeat;
+    top: 100px;
+    left: 34%;
+    bottom: 100px;
+    width: 500px;
+    align-items: center;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+.mainform {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    padding-top: 29px;
+    font-family: 'Pacifico', cursive;
+}
+
+.form {
+    color: white;
+    font-weight: 5;
+    font-size: large;
+    height: 300px;
+    width: 500px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.form input {
+    padding: 11px 11px 11px 26px;
+    width: 186px;
+    height: 1px;
+    margin: 10px;
+    padding-left: 26px;
+
+}
+
+.usernameicon {
+    position: absolute;
+    padding: 3px;
+    bottom: 202px;
+    left: 159px;
+    font-size: 16px;
+}
+
+.input1 {
+    transition: all 1s ease-in;
+}
+
+.input1:focus {
+    color: blanchedalmond;
+    border-radius: 8px;
+}
+
+.input1:focus~.fa {
+    font-size: 10px;
+}
+.input1::placeholder{
+    color: aliceblue;
+    font-weight: lighter;
+}
+input {
+    box-sizing: border-box;
+    border: 2px solid white;
+    outline: none;
+    background: transparent;
+    font-size: 13px;
+    color: white;
+}
+.passwordicon {
+    position: absolute;
+    top: 146px;
+    left: 162px;
+    font-size: 15px;
+}
+#loginbutton{
+    background-image: linear-gradient(to bottom right , rgba(24, 47, 255, 0.71) , rgb(151, 63, 239) , rgb(251, 77, 213));
+    width: 110px;
+}
