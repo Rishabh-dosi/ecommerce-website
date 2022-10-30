@@ -12,12 +12,14 @@
 </head>
 
 <body>
+        <div id="c"></div>
     <div class="menubar">
         <div class="logo"><img src="logo.png" alt="image not found"></div>
         <input type="search" id="search">
         <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
         <a href=""><i class="fa-solid fa-user"></i> Profile</a>
-        <a href="" id="cart"><i class="fa-solid fa-cart-shopping"></i> Cart</a>
+        <button type="button" onclick="showcart()" id="cart"> <i class="fa-solid fa-cart-shopping"></i> Cart</button>
+        
     </div>
     <div class="main">
         <div class="item">
@@ -26,11 +28,20 @@
                 with Dual Button, Hands On Voice
                 Assistance, 60 Sports Modes, in Built Mic & Speaker with IP68 Rating
             <div class="price">&#8377 3599</div></div>
+        <div class="shoppingbuttons">
+            <button id="b1" name="firebolt watch" class="addtocart" onclick="updatecart(this)" price="3599"><i
+                    class="fa-solid fa-cart-shopping"></i></button>
         </div>
+        </div>
+        
         <div class="item">
             <img src="images/echo.jpg" alt="">
             <div class="productdiscription">Echo Dot (4th Gen, 2020 release)| Smart speaker with Alexa (Black)
                 <div class="price">&#8377 2999</div>
+            </div>
+            <div class="shoppingbuttons">
+                <button id="b1" name="firebolt watch" class="addtocart" onclick="updatecart(this)" price="3599"><i
+                        class="fa-solid fa-cart-shopping"></i></button>
             </div>
         </div>
         <div class="item">
@@ -38,6 +49,10 @@
             <div class="productdiscription">boAt Airdopes 121v2 True Wireless Earbuds with Upto 14 Hours Playback, 8MM Drivers, Battery Indicators, Lightweight
             Earbuds & Multifunction Controls(Active Black)
         <div class="price">&#8377 1299</div></div>
+        <div class="shoppingbuttons">
+            <button id="b1" name="firebolt watch" class="addtocart" onclick="updatecart(this)" price="3599"><i
+                    class="fa-solid fa-cart-shopping"></i></button>
+        </div>
 
         </div>
         <div class="item">
@@ -45,9 +60,14 @@
             <div class="productdiscription">Lenovo Tab P11 Plus Tablet (11 inch (27.94 cm), 6 GB, 128 GB, Wi-Fi+LTE, Voice Calling), Slate Grey with 2K Display,
             Quad Speakers with Dolby Atmos, 7700 mAH Battery and TUV Certified Eye Protection
         <div class="price">&#8377 24000</div></div>
+        <div class="shoppingbuttons">
+            <button id="b1" name="firebolt watch" class="addtocart" onclick="updatecart(this)" price="3599"><i
+                    class="fa-solid fa-cart-shopping"></i></button>
+        </div>
 
         </div>
     </div>
+
 </body>
 
 </html>
