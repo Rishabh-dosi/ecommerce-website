@@ -46,6 +46,9 @@ body {
     font-size: 24px;
     padding: 12px;
     font-family: 'Pacifico', cursive;
+    color: rgb(47, 0, 92);
+    background-color: transparent;
+    border: 0;
 }
 
 .menubar img {
