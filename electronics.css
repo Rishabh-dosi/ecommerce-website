@@ -34,8 +34,23 @@ body {
     font-size: 24px;
     padding: 12px;
     font-family: 'Pacifico', cursive;
+    color: rgb(47, 0, 92);
+    background-color: transparent;
+    border: 0;
 }
-
+#c {
+    scale: 0;
+}
+.cart {
+    position: absolute;
+    height: 400px;
+    width: 500px;
+    top: 50%;
+    left: 30%;
+    background: white;
+    z-index: 2;
+    
+}
 .menubar img {
     margin-top: 2px;
     width: 85px;
@@ -99,4 +114,16 @@ body {
     font-size: large;
     padding: 3%;
     font-family: 'Times New Roman', Times, serif;
+}
+.addtocart{
+    font-size: 30px;
+    width: 60px;
+    height: 50px;
+    margin-left: 2%;
+    margin: 50%;
+}
+.shoppingbuttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
